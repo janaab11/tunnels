@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "tunnels"
+version = "0.1.0"
+description = "data in the streams, that is all we are"
+authors = ["Manas <manas.gooner11@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+sounddevice = "^0.5.1"
+numpy = "^2.1.3"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
