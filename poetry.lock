@@ -174,7 +174,34 @@ CFFI = ">=1.0"
 [package.extras]
 numpy = ["NumPy"]
 
+[[package]]
+name = "websocket-client"
+version = "1.8.0"
+description = "WebSocket client for Python with low level API options"
+optional = false
+python-versions = ">=3.8"
+files = [
+    {file = "websocket_client-1.8.0-py3-none-any.whl", hash = "sha256:17b44cc997f5c498e809b22cdf2d9c7a9e71c02c8cc2b6c56e7c2d1239bfa526"},
+    {file = "websocket_client-1.8.0.tar.gz", hash = "sha256:3239df9f44da632f96012472805d40a23281a991027ce11d2f45a6f24ac4c3da"},
+]
+
+[package.extras]
+docs = ["Sphinx (>=6.0)", "myst-parser (>=2.0.0)", "sphinx-rtd-theme (>=1.1.0)"]
+optional = ["python-socks", "wsaccel"]
+test = ["websockets"]
+
+[[package]]
+name = "websocket-server"
+version = "0.6.4"
+description = "A simple fully working websocket-server in Python with no external dependencies"
+optional = false
+python-versions = ">=3.6"
+files = [
+    {file = "websocket_server-0.6.4-py3-none-any.whl", hash = "sha256:aca2d8f7569c82fe3e949cbae1f9d3f3035ae15f1d4048085431c94b7dfd35be"},
+    {file = "websocket_server-0.6.4.tar.gz", hash = "sha256:a8a02d575905e50f6af90bbbc37d23d7e1b027630897f0eeefed6a3fb3c22e07"},
+]
+
 [metadata]
 lock-version = "2.0"
 python-versions = "^3.10"
-content-hash = "97742e37587b966e7a1864bf07da1f32fbc661a1d512476c4135389c2375f045"
+content-hash = "108d9b3568516cdde0a595097ae1f5626e777321749f37ca72f45b80ec9b2a72"
