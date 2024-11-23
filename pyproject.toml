@@ -4,6 +4,7 @@ version = "0.1.0"
 description = "data in the streams, that is all we are"
 authors = ["Manas <manas.gooner11@gmail.com>"]
 readme = "README.md"
+packages = [{include = "tunnels"}]
 
 [tool.poetry.dependencies]
 python = "^3.10"
@@ -12,6 +13,8 @@ numpy = "^2.1.3"
 websocket-client = "^1.8.0"
 websocket-server = "^0.6.4"
 
+[tool.poetry.scripts]
+tunnels = "tunnels.cli:main"
 
 [build-system]
 requires = ["poetry-core"]
